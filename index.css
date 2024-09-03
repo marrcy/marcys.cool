@@ -16,7 +16,7 @@ body {background-color: #05080a; margin:70px auto; padding-left:min(16px); paddi
 
 .profile {display:flex;}
 
-.pfp {width:42px; height:auto; border-radius:100%; outline:1px solid #ffffff30;  outline-offset:-1px;}
+.pfp {width:42px; height:auto; border-radius:100%; outline:1px solid #ffffff20;  outline-offset:-1px;}
 .badge {width:16px; height:auto; position:relative; left:-16px; margin-right:-16px;}
 .name {font-size:32px; font-weight:700; font-family:Helvetica,sans-serif; margin:0; align-self:center; margin:0 16px; position:relative; top:-3px;}
 .about {font-family: Helvetica, sans-serif; font-size:16px;}
