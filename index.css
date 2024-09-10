@@ -10,7 +10,8 @@ body {background-color: #05080a; margin:70px auto; padding-left:min(16px); paddi
 .mailto {text-decoration-line: none;}
 .mailto:hover {text-decoration-line: underline;}
 
-
+a:link { text-decoration: none; }
+a:hover { text-decoration: underline;}
 
 /* Profile */
 
