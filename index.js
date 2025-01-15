@@ -1,9 +1,9 @@
-function copyDiscord() {
-  // Get text field.
-  var copyText = document.getElementById("discordID");
-  // Select text field.
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  // Copy text.
-  navigator.clipboard.writeText(copyText.value);
+function setClipboard(value) {
+    var tempInput = document.createElement("input");
+    tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+    tempInput.value = value;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
 }

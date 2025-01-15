@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Marcy</title>
+    <title>Marcy's website</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-
-    <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
-
     <link rel="stylesheet" href="index.css">
-      
-    </script>
-
+    <link rel="stylesheet" href="fonts.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-  </head>
-
-  <body>
- <input type="text" value="trayaurus" id="discordID">
-
+<body>
+ <input type="hidden" value="4343-9377-4543" id="mkwID">
+ <input type="hidden" value="0185-1937-0486" id="PNID">
     <header>
-      
       <div class="profile">
         <div>
           <img src="assets/images/profile-picture.png" alt="pfp" class="pfp"/>
@@ -30,7 +23,7 @@
     </header>
 
     <links>
-      <p class="title primary">Links</p>
+      <p class="title primary">Socials</p>
       <div class="links">
         <!--Bluesky-->
         <a class="link" href="https://bsky.app/profile/marcys.cool" target="_blank">
@@ -38,46 +31,30 @@
           <p class="handle primary">Bluesky</p>
          <img src="assets/images/open.png" alt="" />
         </a>
-        <!--Discord-->
-        <a class="link" onclick="copyDiscord()">
-          <img src="assets/images/logo-discord.png" alt="" class="logo" />
-          <p class="handle primary">Discord</p>
-          <img src="assets/images/open.png" alt="" />
-        </a>
-        <!--Github-->
-        <a class="link" href="https://github.com/dandhi" target="_blank">
-         <img src="assets/images/logo-github.png" alt="" class="logo" />
-          <p class="handle primary">Github</p>
-         <img src="assets/images/open.png" alt="" />
-        </a>
         <!---Mastodon--->
-        <a class="link" rel="me" href="https://mastodon.social/@dandhi" target="_blank">
+        <a class="link" rel="me" href="https://mas.to/@marcy" target="_blank">
           <img src="assets/images/logo-mastodon.png" alt="" class="logo" />
           <p class="handle primary">Mastodon</p>
           <img src="assets/images/open.png" alt="" />
+        </a>        
+      </div>
+      <p class="title primary">Other</p>
+      <div class = links>
+        <!--Bluesky-->
+        <a class="link" onclick="setClipboard('4343-9377-4543')">
+         <img src="assets/images/logo-mkw.png" alt="" class="logo" />
+          <p class="handle primary">Mario Kart Wii</p>
+         <img src="assets/images/open.png" alt="" />
         </a>
-        <!--Matrix-->
-        <a class="link" href="https://matrix.to/#/@dan:envs.net" target="_blank">
-          <img src="assets/images/logo-matrix.png" alt="" class="logo" />
-          <p class="handle primary">Matrix</p>
+        <!---Mastodon--->
+        <a class="link" onclick="setClipboard('0185-1937-0486')">
+          <img src="assets/images/logo-pretendo.png" alt="" class="logo" />
+          <p class="handle primary">PNID</p>
           <img src="assets/images/open.png" alt="" />
-        </a>
-        <!--Steam-->
-        <a class="link" href="https://steamcommunity.com/id/danielsbadatgames/" target="_blank">
-          <img src="assets/images/logo-steam.png" alt="" class="logo" />
-          <p class="handle primary">Steam</p>
-          <img src="assets/images/open.png" alt="" />
-        </a>
-        <!--Tumblr-->
-        <a class="link" href="https://www.tumblr.com/danielsmindpalace" target="_blank">
-          <img src="assets/images/logo-tumblr.png" alt="" class="logo">
-          <p class="handle primary">Tumblr</p>
-          <img src="assets/images/open.png" alt="">
-        </a>
+        </a>   
       </div>
     </links>
-
-    <script src="about.js"></script>
+    <script src="index.js"></script>
     
   </body>
 
